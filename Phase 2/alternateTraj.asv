@@ -1,0 +1,5 @@
+function y = alternateTraj(Interpx,Interpy,d,xbarbar,ybarbar,t,)
+
+point2d = [Interpx(t);Interpy(t)];
+y = d + [xbarbar, ybarbar]*point2d;
+end

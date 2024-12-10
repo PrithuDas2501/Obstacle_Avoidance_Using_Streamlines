@@ -1,0 +1,14 @@
+x = linspace(-10,10,1000);
+y = zeros(1,1000);
+for i = 1:1000
+    y(i) = sigmoid(x(i)-1);
+end
+figure
+hold on
+grid on
+xlabel('X')
+ylabel('Y')
+title('K_0 Graph')
+plot(x,2*y-1)
+plot([1 1], [-1 1], 'r:');
+scatter(1,0,)
