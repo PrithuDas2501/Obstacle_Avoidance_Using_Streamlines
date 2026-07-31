@@ -4,4 +4,4 @@ simulation.m serves as the main file.
 
 UAVObstacleAvoidanceInternshipDocumentation.pdf contains a formal documentation of this work and the mathematics behind the algorithm.
 
-Feel free to reach out via email: ae21b023@smail.iitm.ac.in
+Feel free to reach out via email: hrishav2@illinois.edu
